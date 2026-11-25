@@ -1,13 +1,6 @@
 <h1 align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;height=195&amp;color=0%3A14446A%2C55%3A176A83%2C100%3A168278&amp;text=Hi%2C%20I&#39;m%20EvoLi&amp;fontColor=FFFFFF&amp;fontSize=56&amp;fontAlignY=39" width="100%" alt="Hi, I'm EvoLi" />
+  <img src="./assets/profile-banner.svg" width="100%" alt="Hi, I'm EvoLi. Exploring RSI evaluation, multi-agent frameworks, and LLM agents for ROS robots." />
 </h1>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com/?font=JetBrains%20Mono&amp;size=23&amp;duration=2400&amp;pause=1100&amp;center=true&amp;vCenter=true&amp;width=460&amp;height=46&amp;lines=Hunan%20University%3BRSI%20Algorithm%20Research%3BBuilding%20Robot%20Agents%3BPython&amp;color=77D5D2" />
-    <img src="https://readme-typing-svg.demolab.com/?font=JetBrains%20Mono&amp;size=23&amp;duration=2400&amp;pause=1100&amp;center=true&amp;vCenter=true&amp;width=460&amp;height=46&amp;lines=Hunan%20University%3BRSI%20Algorithm%20Research%3BBuilding%20Robot%20Agents%3BPython&amp;color=186882" width="460" alt="Hunan University · RSI Algorithm Research · Building Robot Agents · Python" />
-  </picture>
-</p>
 
 ## About Me
 
@@ -23,6 +16,20 @@ I'm interested in how an agent can use feedback from previous runs to improve it
 
 I work on the software that connects an agent's decisions to the actions a robot can take. I'm especially interested in how agents break down tasks, call robot skills, and use execution feedback to decide what to do next.
 
+## 🧰 Tech Stack | 技术栈
+
+| Area | Tools & methods |
+| --- | --- |
+| **Agent systems** | Deep Agents (`deepagents`), LangGraph, ROS |
+| **Retrieval & evaluation** | RAG, RSI algorithms and evaluation |
+| **Development & deployment** | Python, FastAPI, Docker |
+
+## 🧭 Learning Focus | 学习方向
+
+1. **RSI 评测 · RSI Evaluation** — Define benchmarks and compare how consistently agents improve across runs.
+2. **多 Agent 框架 · Multi-Agent Frameworks** — Explore how planners, workers, and reviewers coordinate on multi-step tasks.
+3. **ROS 机器人 LLM 代理 · LLM Agents for ROS Robots** — Connect LLM task plans to ROS robot skills and use execution feedback to guide the next action.
+
 ## Selected Repositories
 
 - [instant_ws](https://github.com/RePlasmid/instant_ws) — A ROS workspace for bringing up a mobile robot and running its navigation workflow.
@@ -33,5 +40,5 @@ I work on the software that connects an agent's decisions to the actions a robot
 [3590105938@qq.com](mailto:3590105938@qq.com)
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;height=98&amp;section=footer&amp;color=0%3A14446A%2C55%3A176A83%2C100%3A168278" width="100%" alt="" />
+  <img src="./assets/profile-footer.svg" width="100%" alt="" />
 </p>

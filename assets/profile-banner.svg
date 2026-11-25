@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="224" viewBox="0 0 620 224" role="img" aria-labelledby="title description">
+  <title id="title">Hi, I'm EvoLi</title>
+  <desc id="description">Hunan University. Exploring RSI evaluation, multi-agent frameworks, and LLM agents for ROS robots.</desc>
+  <defs>
+    <linearGradient id="wave" x2="100%" y2="72%">
+      <stop stop-color="#14446a"/>
+      <stop offset=".55" stop-color="#176a83"/>
+      <stop offset="1" stop-color="#16796f"/>
+    </linearGradient>
+    <clipPath id="first-line">
+      <rect class="reveal first" x="85" y="160" width="450" height="32"/>
+    </clipPath>
+    <clipPath id="second-line">
+      <rect class="reveal second" x="192" y="188" width="236" height="32"/>
+    </clipPath>
+  </defs>
+  <style>
+    .focus-label { fill: #496774; }
+    .focus-text { fill: #14566b; }
+    @media (prefers-color-scheme: dark) {
+      .focus-label { fill: #a4c5cf; }
+      .focus-text { fill: #83dbd6; }
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .reveal {
+        transform-box: fill-box;
+        transform-origin: left;
+        animation-name: type;
+        animation-fill-mode: both;
+      }
+      .first { animation-duration: 1.55s; animation-delay: .22s; animation-timing-function: steps(39, end); }
+      .second { animation-duration: .9s; animation-delay: 1.92s; animation-timing-function: steps(20, end); }
+    }
+    @keyframes type {
+      from { transform: scaleX(0); }
+      to { transform: scaleX(1); }
+    }
+  </style>
+  <path fill="url(#wave)" d="M0 0H620V110C517 147 423 113 318 120 203 127 108 149 0 115Z"/>
+  <path fill="#e1ffff" opacity=".14" d="M0 111C108 142 206 108 318 113C438 118 524 137 620 101V110C517 147 423 113 318 120 203 127 108 149 0 115Z"/>
+  <g text-anchor="middle" font-family="system-ui, sans-serif">
+    <text x="310" y="63" fill="#ffffff" font-size="45" font-weight="700">Hi, I'm EvoLi</text>
+    <text x="310" y="91" fill="#ddf6f8" font-size="15" font-weight="600" letter-spacing="1.2">Hunan University</text>
+    <text class="focus-label" x="310" y="150" font-size="13" font-weight="700" letter-spacing="2">EXPLORING</text>
+  </g>
+  <g class="focus-text" text-anchor="middle" font-family="ui-monospace, Consolas, monospace" font-size="20" font-weight="600">
+    <text x="310" y="179" textLength="440" lengthAdjust="spacing" clip-path="url(#first-line)">RSI Evaluation · Multi-Agent Frameworks</text>
+    <text x="310" y="207" textLength="226" lengthAdjust="spacing" clip-path="url(#second-line)">ROS Robot LLM Agents</text>
+  </g>
+</svg>
