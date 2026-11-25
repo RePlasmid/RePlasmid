@@ -28,6 +28,10 @@ I work on the software that connects an agent's decisions to the actions a robot
 - [instant_ws](https://github.com/RePlasmid/instant_ws) — A ROS workspace for bringing up a mobile robot and running its navigation workflow.
 - [OpenChatBI Semantic](https://github.com/RePlasmid/openchatbi-semantic) — A Python data analysis workbench built on OpenChatBI. It turns natural-language questions into SQL and exposes the query plan and results for inspection.
 
+## Contact
+
+[3590105938@qq.com](mailto:3590105938@qq.com)
+
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&amp;height=98&amp;section=footer&amp;color=0%3A14446A%2C55%3A176A83%2C100%3A168278" width="100%" alt="" />
 </p>
